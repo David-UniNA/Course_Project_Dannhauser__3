@@ -1,6 +1,6 @@
 The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 
-Download the dataset
+the dataset was previously downloaded (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and localy stored in the folder of the script.
 Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
 Assign each data to variables
