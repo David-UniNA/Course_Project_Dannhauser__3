@@ -2,11 +2,11 @@ The run_analysis.R script performs the data preparation and then followed by the
 
 the dataset was previously downloaded (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and locally stored in the folder of the R-script (run_analysis.R).
 
-load libaries
-read supporting metadata using the read.table() function
-create training (train) dataset using the read.tabe() function
-create test dataset using the read.table() function
-merge training and test sets to create one data set using the rbind () and the cbind () functions
+load libaries.
+read supporting metadata using the read.table() function.
+create training (train) dataset using the read.tabe() function.
+create test dataset using the read.table() function.
+merge training and test sets to create one data set using the rbind () and the cbind () functions.
 2. extracts only measurements on the mean and standard deviation for each measurement
 3. uses descriptive activity names to name the activities in the data set
 4. appropriately labels the data set with descriptive variable names
