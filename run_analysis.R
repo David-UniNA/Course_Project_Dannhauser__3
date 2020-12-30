@@ -4,7 +4,7 @@ library(dplyr)
 # read supporting Metadata
 featureNames <- read.table("UCI HAR Dataset/features.txt")
 
-# create train dataset
+# create training dataset
 X_train 	 <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
 Y_train 	 <- read.table("UCI HAR Dataset/train/y_train.txt", header = FALSE)
 subjectTRAIN <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
