@@ -3,8 +3,7 @@
 This repository is submited for the peer graded assignment of the'Getting and Cleaning Data' course project. 
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set.
 
-The dataset:
-Data collected from the accelerometers from the Samsung Galaxy S smartphone for the human activity recognition.
+The analyzed dataset contains data collected from the accelerometers from the Samsung Galaxy S smartphone. Note, the dataset was downloaded (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and localy stored in the folder of the R script.
 
 Project files:
 code book.md indicate all the variables and summaries calculated, along with units, and any other relevant information for the project.
