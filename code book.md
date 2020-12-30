@@ -1,25 +1,17 @@
 The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 
-the dataset was previously downloaded (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and localy stored in the folder of the script.
-Dataset downloaded and extracted under the folder called UCI HAR Dataset
+the dataset was previously downloaded (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and locally stored in the folder of the R-script (run_analysis.R).
 
-Assign each data to variables
-features <- features.txt : 561 rows, 2 columns
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-activities <- activity_labels.txt : 6 rows, 2 columns
-List of activities performed when the corresponding measurements were taken and its codes (labels)
-subject_test <- test/subject_test.txt : 2947 rows, 1 column
-contains test data of 9/30 volunteer test subjects being observed
-x_test <- test/X_test.txt : 2947 rows, 561 columns
-contains recorded features test data
-y_test <- test/y_test.txt : 2947 rows, 1 columns
-contains test data of activities’code labels
-subject_train <- test/subject_train.txt : 7352 rows, 1 column
-contains train data of 21/30 volunteer subjects being observed
-x_train <- test/X_train.txt : 7352 rows, 561 columns
-contains recorded features train data
-y_train <- test/y_train.txt : 7352 rows, 1 columns
-contains train data of activities’code labels
+load libaries
+read supporting metadata using the read.table() function
+create training (train) dataset using the read.tabe() function
+create test dataset using the read.table() function
+merge training and test sets to create one data set using the rbind () and the cbind () functions
+2. extracts only measurements on the mean and standard deviation for each measurement
+3. uses descriptive activity names to name the activities in the data set
+4. appropriately labels the data set with descriptive variable names
+5. from the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
 
 Merges the training and the test sets to create one data set
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
